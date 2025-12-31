@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/androidx86-10-isos/Android%2010%20x64%20%28Eng%29.iso"
+      VERSION: "10"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
