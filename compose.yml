@@ -3,11 +3,10 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
+      VERSION: "https://archive.org/download/nano11-24h2/Nano11%2024H2.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
-      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
