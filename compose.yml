@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/nano11_25h2/nano11%2025h2.iso"
+      VERSION: "https://archive.org/download/22000.51.210617-2050.-co-release-svc-prod-2-clientmulti-x-64-fre-en-us/RTM/Windows_11_English_US_x64.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
