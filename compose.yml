@@ -7,7 +7,6 @@ services:
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
-      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
