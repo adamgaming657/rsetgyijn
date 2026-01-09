@@ -3,11 +3,12 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/tiny-10_202301/tiny10%2023h1%20x64.iso"
-      RAM_SIZE: "8G"
+      VERSION: "https://archive.org/download/windowsxpprox64english/Windows%20XP%20Pro%20x64%20English.iso"
+      RAM_SIZE: "4G"
       CPU_CORES: "4"
       DISK_SIZE: "30G"
       MANUAL: "Y"
+      BOOT_MODE: "legacy"
     devices:
       - /dev/kvm
       - /dev/net/tun
